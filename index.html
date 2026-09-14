@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laairoi · Wellington Reis — Eletricista em Taguatinga Norte, DF</title>
+  <meta name="description" content="Eletricista industrial, predial e manutenção geral em Taguatinga Norte - DF. Instalações elétricas, comandos elétricos, energia solar e pequenos reparos. Atendimento 24 horas.">
+  <meta name="theme-color" content="#0b0b0a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23FFC700'/><path d='M56 12 26 56h20l-6 32 32-46H52z' fill='%230b0b0a'/></svg>">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#topo" class="brand" aria-label="Laairoi — início">
+        <span class="brand__mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 2 5 13.5h6L9.5 22 19 9.5h-6.5z"/></svg>
+        </span>
+        <span class="brand__text">Laairoi<small>Wellington Reis</small></span>
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#reparos">Pequenos reparos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <a class="btn btn--sm btn--yellow nav__cta" href="https://wa.me/5561981865397?text=Ol%C3%A1%20Wellington%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+        Orçamento
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#servicos">Serviços</a>
+      <a href="#reparos">Pequenos reparos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#faq">Dúvidas</a>
+      <a class="btn btn--yellow" href="https://wa.me/5561981865397" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- HERO (baseado no panfleto) -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__glow"></div>
+      </div>
+
+      <div class="wrap hero__inner">
+        <div class="hero__copy">
+          <p class="status"><span class="status__dot"></span> Aberto agora · Atendimento 24 horas</p>
+
+          <div class="hero__id">
+            <div class="hero__bolt" aria-hidden="true">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="50"/><path d="M57 10 24 57h22l-7 33 36-50H53z"/></svg>
+            </div>
+            <div>
+              <h1 class="hero__name">Wellington <span>Reis</span></h1>
+              <p class="hero__roles">Eletricista Industrial <i></i> Predial <i></i> Manutenção Geral</p>
+            </div>
+          </div>
+
+          <p class="hero__slogan">Seu projeto elétrico com <mark>segurança</mark> e <mark>qualidade</mark>.</p>
+
+          <p class="hero__lead">Da troca de uma tomada ao quadro de comando da sua indústria. Atendemos residências, comércios e indústrias em Taguatinga Norte e todo o DF.</p>
+
+          <div class="hero__actions">
+            <a class="btn btn--yellow btn--lg" href="https://wa.me/5561981865397?text=Ol%C3%A1%20Wellington%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 16.7L2 22l5.4-1.4A11 11 0 0 0 20.5 3.5ZM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3A9 9 0 1 1 12 20Zm4.9-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4.1-.2 0-.3 0-.5l-.9-2c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.5-.3Z"/></svg>
+              Pedir orçamento no WhatsApp
+            </a>
+            <a class="btn btn--ghost btn--lg" href="tel:+5561981865397">(61) 98186-5397</a>
+          </div>
+
+          <ul class="hero__trust">
+            <li><strong>24h</strong><span>todos os dias</span></li>
+            <li><strong>3</strong><span>frentes: casa, comércio, indústria</span></li>
+            <li><strong>DF</strong><span>base em Taguatinga Norte</span></li>
+          </ul>
+        </div>
+
+        <!-- Painel de serviços — inspirado no panfleto -->
+        <aside class="hero__card" aria-label="Nossos serviços">
+          <div class="hero__photo">
+            <img src="assets/hero.jpg" alt="Quadro de comando elétrico montado por Wellington Reis" onerror="this.remove()">
+            <div class="hero__photo-fallback" aria-hidden="true">
+              <div class="breakers">
+                <span></span><span></span><span></span><span class="on"></span><span></span><span></span><span class="on"></span><span></span>
+              </div>
+              <div class="breakers breakers--b">
+                <span class="on"></span><span></span><span></span><span></span><span class="on"></span><span></span><span></span><span></span>
+              </div>
+            </div>
+            <span class="hero__tag">Taguatinga Norte · DF</span>
+          </div>
+
+          <div class="hero__services">
+            <p class="pill">Nossos serviços</p>
+            <ul>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M13.5 2 5 13.5h6L9.5 22 19 9.5h-6.5z" fill="currentColor" stroke="none"/></svg> Instalações elétricas</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2.5"/><path d="M8 7v10M16 7v10"/><rect x="6" y="9" width="4" height="3" rx=".8"/><rect x="14" y="12" width="4" height="3" rx=".8"/></svg> Comandos elétricos</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><rect x="9" y="6" width="6" height="7" rx="1"/><path d="M11 17h2"/></svg> Interruptores inteligentes</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg> Energia solar (fotovoltaica)</li>
+              <li><svg class="ico" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5l-6 6a1.8 1.8 0 0 0 2.5 2.5l6-6a4 4 0 0 0 5-5.4l-2.5 2.5-2.3-.4-.4-2.3z"/></svg> Reparos e manutenção</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>Instalações elétricas</span><b>⚡</b><span>Comandos elétricos</span><b>⚡</b><span>Energia solar</span><b>⚡</b><span>Automação residencial</span><b>⚡</b><span>Quadros de distribuição</span><b>⚡</b><span>Manutenção preventiva</span><b>⚡</b>
+          <span>Instalações elétricas</span><b>⚡</b><span>Comandos elétricos</span><b>⚡</b><span>Energia solar</span><b>⚡</b><span>Automação residencial</span><b>⚡</b><span>Quadros de distribuição</span><b>⚡</b><span>Manutenção preventiva</span><b>⚡</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="section" id="servicos">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">01 — Serviços</p>
+          <h2>Tudo que envolve energia, <br class="hide-sm">feito por quem é do ramo.</h2>
+          <p class="section__sub">Experiência em ambiente industrial aplicada também na sua casa e no seu negócio. Mesmo padrão técnico, qualquer tamanho de obra.</p>
+        </div>
+
+        <div class="services">
+          <article class="svc svc--wide">
+            <div class="svc__num">01</div>
+            <h3>Instalações elétricas</h3>
+            <p>Projeto e execução de instalações novas, reformas e ampliações. Dimensionamento correto de cabos, disjuntores e quadros de distribuição dentro das normas.</p>
+            <ul class="tags"><li>Obras novas</li><li>Reformas</li><li>Quadros de distribuição</li><li>Aterramento</li></ul>
+          </article>
+
+          <article class="svc svc--dark">
+            <div class="svc__num">02</div>
+            <h3>Comandos elétricos</h3>
+            <p>Montagem e manutenção de painéis de comando, partida de motores, contatores, relés e inversores para indústria e comércio.</p>
+          </article>
+
+          <article class="svc">
+            <div class="svc__num">03</div>
+            <h3>Interruptores inteligentes</h3>
+            <p>Automação de iluminação e tomadas controladas pelo celular ou por voz. Conforto e economia sem quebrar parede.</p>
+          </article>
+
+          <article class="svc svc--solar">
+            <div class="svc__num">04</div>
+            <h3>Energia solar fotovoltaica</h3>
+            <p>Instalação e manutenção de sistemas fotovoltaicos para reduzir sua conta de luz. Ligação do inversor, string box e adequação do padrão.</p>
+            <div class="svc__meter" aria-hidden="true"><span></span></div>
+          </article>
+
+          <article class="svc">
+            <div class="svc__num">05</div>
+            <h3>Reparos e manutenção</h3>
+            <p>Diagnóstico de curtos, quedas de disjuntor e oscilações. Manutenção preventiva e corretiva para evitar paradas e riscos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEQUENOS REPAROS -->
+    <section class="section section--yellow" id="reparos">
+      <div class="wrap reparos">
+        <div class="reparos__copy">
+          <p class="eyebrow eyebrow--dark">02 — Pequenos reparos</p>
+          <h2>Serviço pequeno também é prioridade.</h2>
+          <p>Aquela tomada que não funciona, o ventilador que ficou encostado, o disjuntor que desarma do nada. Resolve rápido, com acabamento limpo e sem sujeira.</p>
+          <a class="btn btn--black btn--lg" href="https://wa.me/5561981865397?text=Ol%C3%A1%2C%20preciso%20de%20um%20pequeno%20reparo." target="_blank" rel="noopener">Agendar um reparo</a>
+        </div>
+        <ul class="checklist">
+          <li><span class="check"></span><div><strong>Troca de tomadas e interruptores</strong><small>Inclusive adequação para o padrão novo de 3 pinos</small></div></li>
+          <li><span class="check"></span><div><strong>Instalação de luminárias e ventiladores</strong><small>Pendentes, plafons, spots, ventiladores de teto</small></div></li>
+          <li><span class="check"></span><div><strong>Ajustes em disjuntores</strong><small>Troca, balanceamento e identificação do quadro</small></div></li>
+          <li><span class="check"></span><div><strong>Reparos em instalações em geral</strong><small>Fios aquecendo, mau contato, pontos sem energia</small></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SEGMENTOS -->
+    <section class="section" id="segmentos">
+      <div class="wrap">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow">03 — Para quem</p>
+            <h2>Atendemos residências, comércios e indústrias.</h2>
+          </div>
+          <p class="section__sub">Cada ambiente tem sua carga, suas normas e sua urgência. A gente adapta o atendimento a cada um.</p>
+        </div>
+
+        <div class="segments">
+          <article class="seg">
+            <svg class="seg__ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 22 24 7l18 15M11 18v23h26V18M20 41V29h8v12"/></svg>
+            <h3>Residências</h3>
+            <p>Reformas, novos pontos, chuveiros, iluminação e automação. Atendimento cuidadoso dentro da sua casa.</p>
+          </article>
+          <article class="seg">
+            <svg class="seg__ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 18h36l-3-10H9zM8 18v23h32V18M18 41V29h12v12M6 18c0 3 2.5 5 5 5s5-2 5-5c0 3 2.5 5 5 5h6c2.5 0 5-2 5-5 0 3 2.5 5 5 5s5-2 5-5"/></svg>
+            <h3>Comércios</h3>
+            <p>Lojas, escritórios e restaurantes. Quadros, iluminação de vitrine, circuitos dedicados para equipamentos.</p>
+          </article>
+          <article class="seg">
+            <svg class="seg__ico" viewBox="0 0 48 48" aria-hidden="true"><path d="M5 41V21l11 7v-7l11 7v-7l11 7V8h5v33zM12 34h4M22 34h4M32 34h4"/></svg>
+            <h3>Indústrias</h3>
+            <p>Painéis de comando, motores, manutenção preventiva e corretiva para manter a produção rodando.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIFERENCIAIS -->
+    <section class="section section--ink">
+      <div class="wrap">
+        <div class="pillars">
+          <div class="pillar">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 7 10v12c0 11 7 19 17 22 10-3 17-11 17-22V10zM16 24l6 6 11-12"/></svg>
+            <h3>Trabalho com segurança</h3>
+            <p>Circuitos desenergizados, EPIs e ferramentas isoladas. Nada de gambiarra.</p>
+          </div>
+          <div class="pillar">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m4 24 9-9 7 3 6-4 7 2 11 8-8 8M14 28l6 6c1 1 3 1 4 0s1-3 0-4M20 26l7 7c1 1 3 1 4 0s1-3 0-4l-6-6M28 22l6 6c1 1 3 1 4 0"/></svg>
+            <h3>Compromisso com o cliente</h3>
+            <p>Horário combinado é horário cumprido. Orçamento claro antes de começar.</p>
+          </div>
+          <div class="pillar">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="19" r="13"/><path d="m24 12 2.2 4.5 5 .7-3.6 3.5.8 5L24 23.4l-4.4 2.3.8-5-3.6-3.5 5-.7zM16 29l-4 15 12-5 12 5-4-15"/></svg>
+            <h3>Qualidade e confiança</h3>
+            <p>Material de procedência e acabamento caprichado. Serviço que dura.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="section" id="como-funciona">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">04 — Como funciona</p>
+          <h2>Do primeiro contato à luz acesa.</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="steps__n">1</span>
+            <h3>Chame no WhatsApp</h3>
+            <p>Conte o que precisa. Mande foto ou vídeo do problema, se puder.</p>
+          </li>
+          <li>
+            <span class="steps__n">2</span>
+            <h3>Receba o orçamento</h3>
+            <p>Avaliação rápida e valor combinado antes de qualquer serviço.</p>
+          </li>
+          <li>
+            <span class="steps__n">3</span>
+            <h3>Agendamos a visita</h3>
+            <p>No melhor horário para você. Atendimento 24 horas para urgências.</p>
+          </li>
+          <li>
+            <span class="steps__n">4</span>
+            <h3>Serviço entregue</h3>
+            <p>Testado, organizado e explicado. Você sabe exatamente o que foi feito.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ORÇAMENTO -->
+    <section class="section section--ink" id="orcamento">
+      <div class="wrap quote">
+        <div class="quote__copy">
+          <p class="eyebrow">05 — Orçamento</p>
+          <h2>Monte seu pedido em 30 segundos.</h2>
+          <p class="section__sub">Preencha abaixo e a mensagem já sai pronta no WhatsApp do Wellington. Sem cadastro, sem compromisso.</p>
+          <div class="contact-lines">
+            <a href="tel:+5561981865397"><span>Telefone / WhatsApp</span>(61) 98186-5397</a>
+            <p><span>Local</span>Taguatinga Norte — DF</p>
+            <p><span>Horário</span>Aberto 24 horas</p>
+          </div>
+        </div>
+
+        <form class="form" id="quoteForm" novalidate>
+          <label class="field">
+            <span>Seu nome</span>
+            <input type="text" name="nome" required autocomplete="name" placeholder="Como podemos te chamar?">
+          </label>
+
+          <fieldset class="field">
+            <legend>Tipo de imóvel</legend>
+            <div class="chips">
+              <label><input type="radio" name="imovel" value="Residência" checked><span>Residência</span></label>
+              <label><input type="radio" name="imovel" value="Comércio"><span>Comércio</span></label>
+              <label><input type="radio" name="imovel" value="Indústria"><span>Indústria</span></label>
+            </div>
+          </fieldset>
+
+          <label class="field">
+            <span>Serviço</span>
+            <select name="servico">
+              <option>Instalação elétrica</option>
+              <option>Comandos elétricos</option>
+              <option>Interruptores inteligentes</option>
+              <option>Energia solar (fotovoltaica)</option>
+              <option>Reparo / manutenção</option>
+              <option>Pequeno reparo (tomada, luminária, disjuntor)</option>
+              <option>Outro</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Bairro / cidade</span>
+            <input type="text" name="local" placeholder="Ex.: Taguatinga Norte">
+          </label>
+
+          <label class="field">
+            <span>Descreva rapidamente</span>
+            <textarea name="descricao" rows="3" placeholder="Ex.: disjuntor do chuveiro desarma toda vez que liga"></textarea>
+          </label>
+
+          <label class="urgent">
+            <input type="checkbox" name="urgente">
+            <span>É urgente</span>
+          </label>
+
+          <button class="btn btn--yellow btn--lg btn--block" type="submit">Enviar pelo WhatsApp</button>
+          <p class="form__error" id="formError" hidden>Informe seu nome para continuar.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="wrap faq">
+        <div class="section__head">
+          <p class="eyebrow">06 — Dúvidas</p>
+          <h2>Perguntas frequentes.</h2>
+        </div>
+        <div class="faq__list">
+          <details>
+            <summary>Vocês atendem de madrugada ou fim de semana?</summary>
+            <p>Sim. O atendimento é 24 horas, inclusive para emergências como falta de energia, curto-circuito ou disjuntor que não religa.</p>
+          </details>
+          <details>
+            <summary>Quais regiões são atendidas?</summary>
+            <p>A base fica em Taguatinga Norte, com atendimento em todo o Distrito Federal. Consulte pelo WhatsApp a disponibilidade para o seu bairro.</p>
+          </details>
+          <details>
+            <summary>Como é feito o orçamento?</summary>
+            <p>Para serviços simples, geralmente dá para orçar por foto ou vídeo no WhatsApp. Para instalações maiores, painéis ou energia solar, é feita uma visita técnica.</p>
+          </details>
+          <details>
+            <summary>Fazem serviço pequeno, só uma tomada?</summary>
+            <p>Fazemos. Troca de tomadas e interruptores, instalação de luminárias, ventiladores e ajustes em disjuntores estão entre os serviços mais pedidos.</p>
+          </details>
+          <details>
+            <summary>Trabalham com energia solar?</summary>
+            <p>Sim. Instalação e manutenção de sistemas fotovoltaicos, incluindo a parte elétrica do inversor e a adequação do quadro.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta">
+      <div class="wrap cta__inner">
+        <h2>Deu problema na parte elétrica? <span>Chama o Wellington.</span></h2>
+        <a class="btn btn--black btn--lg" href="https://wa.me/5561981865397" target="_blank" rel="noopener">WhatsApp (61) 98186-5397</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <a href="#topo" class="brand">
+          <span class="brand__mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 2 5 13.5h6L9.5 22 19 9.5h-6.5z"/></svg></span>
+          <span class="brand__text">Laairoi<small>Wellington Reis</small></span>
+        </a>
+        <p class="footer__desc">Eletricista industrial, predial e manutenção geral. Estações elétricas em geral.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>Contato</h4>
+          <a href="https://wa.me/5561981865397" target="_blank" rel="noopener">+55 61 98186-5397</a>
+          <p>Taguatinga Norte — DF</p>
+          <p>Aberto 24 horas</p>
+        </div>
+        <div>
+          <h4>Serviços</h4>
+          <a href="#servicos">Instalações elétricas</a>
+          <a href="#servicos">Comandos elétricos</a>
+          <a href="#servicos">Energia solar</a>
+          <a href="#reparos">Pequenos reparos</a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">
+      <span>© <span id="year"></span> Laairoi · Wellington Reis</span>
+      <span>Seu projeto elétrico com segurança e qualidade.</span>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/5561981865397?text=Ol%C3%A1%20Wellington%2C%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 16.7L2 22l5.4-1.4A11 11 0 0 0 20.5 3.5ZM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3.2.8.9-3.1-.2-.3A9 9 0 1 1 12 20Zm4.9-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4.1-.2 0-.3 0-.5l-.9-2c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.5-.3Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
