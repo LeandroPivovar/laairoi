@@ -340,3 +340,33 @@ p { margin: 0; }
   .hero__slogan mark::after { transform: scaleX(1); }
   html { scroll-behavior: auto; }
 }
+
+/* Serviço com foto (ar-condicionado) */
+.svc--photo { position: relative; overflow: hidden; isolation: isolate; }
+.svc--photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .8s cubic-bezier(.2,.8,.2,1); }
+.svc--photo::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(100deg, rgba(11,11,10,.94) 0%, rgba(11,11,10,.78) 50%, rgba(11,11,10,.35) 100%); }
+.svc--photo:hover img { transform: scale(1.04); }
+.svc__link { margin-top: 20px; font-weight: 700; display: inline-flex; gap: 6px; align-self: flex-start; border-bottom: 2px solid var(--yellow); padding-bottom: 2px; }
+.svc__link:hover { color: #7a5c00; }
+
+/* Fechaduras eletrônicas */
+.locks { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.locks .section__head { margin-bottom: 36px; }
+.lock-benefits { list-style: none; margin: 0 0 36px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 26px 28px; }
+.lock-benefits li { display: flex; gap: 14px; align-items: flex-start; }
+.lock-benefits svg { width: 40px; height: 40px; flex: none; fill: none; stroke: var(--yellow); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+.lock-benefits strong { display: block; font-size: 17px; }
+.lock-benefits span { display: block; color: var(--muted-dark); font-size: 14.5px; margin-top: 2px; }
+.locks__media { position: relative; }
+.locks__photo { margin: 0; border-radius: 24px; overflow: hidden; aspect-ratio: 5/4; border: 1px solid var(--line); }
+.locks__photo img { width: 100%; height: 100%; object-fit: cover; }
+.unlock { list-style: none; margin: -40px 18px 0; padding: 10px; position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; background: var(--ink-2); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 30px 60px -20px rgba(0,0,0,.8); }
+.unlock li { display: grid; justify-items: center; gap: 8px; padding: 14px 6px; border-radius: 12px; background: var(--yellow); color: var(--ink); font-weight: 800; font-size: 14px; }
+.unlock svg { width: 26px; height: 26px; fill: none; stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 900px) { .locks { grid-template-columns: 1fr; gap: 48px; } .locks__photo { aspect-ratio: 4/3; } }
+@media (max-width: 520px) {
+  .lock-benefits { grid-template-columns: 1fr; }
+  .unlock { grid-template-columns: repeat(2, 1fr); margin: -32px 10px 0; }
+  .locks .btn { width: 100%; }
+}
+@media (max-width: 900px) and (min-width: 601px) { .services > .svc:last-child { grid-column: span 2; } }

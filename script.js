@@ -23,7 +23,7 @@
   });
 
   // Reveal on scroll
-  var targets = document.querySelectorAll(".section__head, .svc, .checklist, .reparos__copy, .seg, .pillar, .steps li, .form, .faq details, .cta__inner");
+  var targets = document.querySelectorAll(".section__head, .svc, .lock-benefits li, .locks__media, .checklist, .reparos__copy, .seg, .pillar, .steps li, .form, .faq details, .cta__inner");
   targets.forEach(function (el) { el.classList.add("reveal"); });
   var meters = document.querySelectorAll(".svc__meter");
   if ("IntersectionObserver" in window) {
